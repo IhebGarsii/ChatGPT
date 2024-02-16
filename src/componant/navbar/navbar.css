@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+}
+.left > .logo {
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+}
+.nav > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.right > button {
+  width: 90px;
+  height: 50px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
