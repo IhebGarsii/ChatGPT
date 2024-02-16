@@ -22,5 +22,13 @@ body {
   justify-content: center;
   background-color: #040c18;
   min-width: 320px;
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
   min-height: 100vh;
 }
