@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  height: 100%;
   justify-content: space-between;
 }
 
@@ -22,12 +22,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
+  line-height: 3rem;
 }
 
 .home-paragraph {
   color: rgb(211, 211, 211);
   font-size: 1.1rem;
   width: 80%;
+}
+.input-container {
+  display: flex;
+  align-items: center;
 }
 
 .home-inupt {
@@ -37,7 +42,30 @@
   background-color: #002d62;
   border: none;
   color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .home-inupt::placeholder {
+  color: white;
+}
+
+.home-btn {
+  width: 90px;
+  height: 60px;
+  font-size: 1.1rem;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 20%;
+  background-color: orangered;
+  color: white;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.end > .span {
   color: white;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import img from "../../assets/people.png";
 function Home() {
   return (
     <div className="home">
@@ -14,8 +15,18 @@ function Home() {
           asked of.
         </p>
         <div className="input-container">
-          <input type="text" className="home-inupt" placeholder="Your Email Address" />
-          <button>Get Started</button>
+          <input
+            type="text"
+            className="home-inupt"
+            placeholder="Your Email Address"
+          />
+          <button className="home-btn">Get Started</button>
+        </div>
+        <div className="end">
+          <img src={img} alt="" srcset="" />
+          <span className="span">
+            1,600 people requested access a visit in last 24 hours
+          </span>
         </div>
       </div>
       <div className="right-home"></div>
