@@ -4,9 +4,8 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="left">
-        <div className="logo">
-          <h1>GPT3</h1>
-        </div>
+        <h1 className="logo">GPT3</h1>
+
         <div className="nav">
           <a href="">Home</a>
           <a href="">What is GPT3</a>

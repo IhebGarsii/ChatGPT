@@ -1,0 +1,43 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.left-home {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-home {
+  background: url("../../assets/ai.png") no-repeat;
+  background-size: cover;
+}
+.home-title {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+
+.home-paragraph {
+  color: rgb(211, 211, 211);
+  font-size: 1.1rem;
+  width: 80%;
+}
+
+.home-inupt {
+  width: 50%;
+  height: 60px;
+  padding-left: 15px;
+  background-color: #002d62;
+  border: none;
+  color: white;
+}
+.home-inupt::placeholder {
+  color: white;
+}
