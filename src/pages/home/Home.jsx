@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.css";
+
 import img from "../../assets/people.png";
+
 function Home() {
   return (
     <div className="home">

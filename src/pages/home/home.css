@@ -1,7 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100%;
+  height: 100vh;
   justify-content: space-between;
 }
 
@@ -9,7 +9,7 @@
   padding-top: 65px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .right-home {
@@ -36,7 +36,7 @@
 }
 
 .home-inupt {
-  width: 50%;
+  width: 58%;
   height: 60px;
   padding-left: 15px;
   background-color: #002d62;
@@ -68,4 +68,10 @@
 }
 .end > .span {
   color: white;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
