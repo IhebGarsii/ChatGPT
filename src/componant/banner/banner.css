@@ -1,0 +1,19 @@
+.banner {
+  width: 100%;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.banner > button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.center > h3 {
+  font-size: 1.8rem;
+}

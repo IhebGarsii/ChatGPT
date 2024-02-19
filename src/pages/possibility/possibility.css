@@ -1,0 +1,40 @@
+.possibility {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.image {
+  background: url("../../assets/possibility.png") no-repeat;
+  background-size: contain;
+
+  width: 90%;
+}
+.possibility-right {
+  align-self: center;
+  color: white;
+  margin-top: 150px;
+  display: grid;
+  gap: 30px;
+}
+
+.possibility-right > span {
+  color: aqua;
+}
+.possibility-right > .Request {
+  color: rgb(239, 96, 44);
+}
+.possibility-right > h3 {
+  font-size: 2.5rem;
+  width: 80%;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.possibility-right > p {
+  color: rgb(58, 175, 226);
+  width: 70%;
+}
