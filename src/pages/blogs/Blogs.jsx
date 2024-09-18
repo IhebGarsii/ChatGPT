@@ -9,7 +9,7 @@ import blog5 from "../../assets/blog05.png";
 import "./blogs.css";
 function Blogs() {
   return (
-    <div className="blog">
+    <div className="blogs">
       <h1>
         A lot is happening,
         <br /> We are blogging about it.
